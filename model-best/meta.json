@@ -1,0 +1,52 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.3.0,<3.4.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"Unknown",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "CLINICAL"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.615003867,
+    "ents_p":0.5916666667,
+    "ents_r":0.640257649,
+    "ents_per_type":{
+      "CLINICAL":{
+        "p":0.5916666667,
+        "r":0.640257649,
+        "f":0.615003867
+      }
+    },
+    "transformer_loss":1777.7073577093,
+    "ner_loss":3101.2870453674
+  }
+}
